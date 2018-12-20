@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:layout_height="match_parent"
+            android:hint="Enter URL"
+            android:inputType="textWebEditText"
+            android:id="@+id/et1"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:text="Go"
+            android:id="@+id/b1"
+            android:onClick="test"/>
+
+    </LinearLayout>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:tag="@string/app_name"
+        android:id="@+id/wv1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
+            android:layout_height="match_parent"
+            android:src="@drawable/facebook"
+            android:padding="10dp"
+            android:id="@+id/f"
+            android:onClick="test"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
+            android:layout_height="match_parent"
+            android:src="@drawable/yahoo"
+            android:padding="10dp"
+            android:id="@+id/y"
+            android:onClick="test"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
+            android:layout_height="match_parent"
+            android:src="@drawable/google"
+            android:padding="10dp"
+            android:id="@+id/g"
+            android:onClick="test"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
+            android:layout_height="match_parent"
+            android:src="@drawable/sql"
+            android:padding="10dp"
+            android:id="@+id/s"
+            android:onClick="test"/>
+
+    </LinearLayout>
+
+</LinearLayout>
