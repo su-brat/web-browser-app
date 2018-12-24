@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">MyApplication9</string>
+    <string name="app_name">Web Browser</string>
+    <string name="url">Enter a URL</string>
 </resources>

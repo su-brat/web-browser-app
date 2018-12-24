@@ -1,10 +1,8 @@
 package appstore.com.myapplication9;
 
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.graphics.Bitmap;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebView;
@@ -50,18 +48,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void test(View v) {
-
         switch (v.getId()) {
             case R.id.f:
                 wv1.loadUrl("http://www.facebook.com");
                 break;
             case R.id.g:
-
                 wv1.loadUrl("http://www.google.com");
                 break;
             case R.id.y:
-
-                wv1.loadUrl("http://www.yahoo.com");
+                wv1.loadUrl("http://www.twitter.com");
                 break;
             case R.id.s:
                 wv1.loadUrl("file:///android_asset/sample.html");
